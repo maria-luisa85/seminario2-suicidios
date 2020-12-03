@@ -1,0 +1,171 @@
+<head>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
+</head>
+
+
+
+<h1>Seminario </h1>
+
+
+Nombre: María Luisa Espada Durango<br>
+Url: <a href="https://seminario2-suicidios.stackblitz.io"> https://seminario2-suicidios.stackblitz.io</a> <br>
+
+ 
+
+
+
+<h2>INTRODUCCIÓN</h2>
+
+El suicidio es el acto por el que una persona se provoca la muerte intencionadamente.
+<br>
+<br>
+Según la OMS (Organización Mundial de la Salud), el suicidio figura entre las 20 causas de defunción más importantes a todas las edades a nivel mundial. Cada año se suicida casi un millón de personas.
+<br>
+<br>
+La persona que piensa en cometer este acto, se dice a sí mismo que el suicidio es una solución permanente y no que a menudo es solo un problema temporal. Puede presentarse como una solución permanente ante un intenso dolor, a un sufrimiento que parece interminable.
+<br>
+<br>
+De hecho, las personas que se quieren suicidar no piensan en morir sin más, sino escapar del intenso sufrimiento que creen que van a sufrir permanentemente, y contemplan el suicidio como la única vía de escape. Pero aunque no se lo parezca, la desesperación, el dolor y el vacío son estados temporales, no permanentes.
+<br>
+<br>
+Este acto suele ser resultado de la interacción de muchos factores entre ellos depresión, enfermedad mental, abuso o dependencias de sustancias, alcoholismo, entre otras. 
+<br>
+<br>
+El factor de riesgo de suicidio más potente de todos son los intentos previos realizados por la persona. Cuantas más veces lo haya intentado, más probable es que en un futuro pueda volverlo a intentar. Además, el riesgo es mayor si se tienen en cuenta una serie de variables adicionales (APA, 2003)
+<br>
+<br>
+Algunos elementos que aumentan el riesgo de suicidio son:
+<br>
+<br>
+-Estar soltero o divorciado.
+<br>
+-Pérdida de trabajo y ser mayor de 50 años.
+<br>
+-Tener pocos recursos económicos.
+<br>
+-Bajo nivel educativo.
+<br>
+-Orientación homosexual o bisexual.
+<br>
+-Violencia de género.
+<br>
+-Aislamiento social.
+<br>
+<br>
+
+<h2>BASE DE DATOS</h2>
+
+Base de Datos: <a
+	href="https://www.kaggle.com/stephanierufino/suicidio-estudo">https://www.kaggle.com/stephanierufino/suicidio-estudo</a><br>
+
+  El objetivo es visualizar esta base de datos y analizar las tasas de suicidio en  todo el mundo entre los años 1985 y 2016. 
+  <br>
+  La base de datos se compone de 12 columnas:
+  <br>
+  -País.
+  <br>
+  -Año.
+  <br>
+  -Género.
+  <br>
+  -Edad.
+  <br>
+  -Número de suicidios.
+  <br>
+  -Población.
+  <br>
+  -Suicicios /100k pop.
+  <br>
+  -País-año.
+  <br>
+  -IDH por año.
+  <br>
+  -GDP por año.
+  <br>
+  -GDP per cápita.
+  <br>
+  -Generación.
+  <br>
+  <br>
+  <h3>¿Cuántas generaciones existen?</h3>
+  <h3>División de las generaciones</h3>
+  
+<a href="https://ibb.co/RT5RS67"><img src="https://i.ibb.co/Qv5ycHX/Generaciones.png" alt="Generaciones" border="0"></a><br />
+Fuente: <a
+	href="https://robotitus.com/que-generaciones-siguen">https://robotitus.com/que-generaciones-siguen</a><br>
+
+La mujer a quién quizás se le atribuye haber iniciado esta tendencia fue a la novelista Gertrude Stein quién acuñó el término de generación perdida a los nacidos entre 1880 y 1900.
+<br>
+Los nacidos entre 1901 y 1924 fueron bautizados como G.I. Generación. Las iniciales “G.I” pueden significar dos cosas: General issue (problema general) y government issue (asunto gubernamental).
+<br>
+Luego vino la generación silenciosa (Silent), nacidos entre 1925-1942 que fueron niños durante la Segunda Guerra Mundial.
+<br>
+Los baby boomers, de 1943 a 1964,  estos nacieron durante un boom económico y vinieron después de la Segunda Guerra Mundial.
+<br>
+La generación X, de 1965 a 1979, experimentaron la epidemia de SIDA y la caída del Muro de Berlín. La «X» en su nombre se refiere al deseo de esta generación de no definirse.
+<br>
+Generación Y, de 1980 a 2000, también conocida como Millennials. 
+<br>
+Generación Z de 2001 a 2015.
+<br>
+
+
+
+<h2>GRÁFICOS</h2>
+
+<h3>Gráfico de correlaciones</h3>
+<a href="https://ibb.co/99TDf4h"><img src="https://i.ibb.co/HDzSMPC/correlacion.png" alt="correlacion" border="0"></a><br>
+
+En este gráfico podemos ver si están las variables relacionadas unas on otras. Dependiendo del color como nos indica la leyenda podemos observar que las variables no están relacionadas execepto HDI for year (El Índice de Desarrollo Humano) y gdp per capita (Producto Interior Bruto).
+<br>
+<br>
+
+<h3>Gráfico de tartas. Barras apiladas. Tabla de datos</h3>
+<div class='tableauPlaceholder' id='viz1606995626828' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='suicidios2_16069114614430&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606995626828');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></a><br />
+
+En este Dashboard vemos:
+<br>
+La composición de la base de datos por sexo con un gráfico de tartas. La base de datos está compuesta por sexo famele(1.559.510 suicidios) y male (5.188.910 suicidios). De aquí deducimos que los hombres se suicidan más que las mujeres. 
+<br>
+Una tabla con el número de suicidos según la generación a la que pertenecen y la edad que tenía la persona cuando falleció. 
+<br>
+Gáfico de barras apiladas representando el número de suicidios según la generación y el sexo al que pertenece cada individuo. 
+<br>
+
+
+
+<h3>Gráfico de columnas. Distribución de la generación</h3>
+<a href="https://ibb.co/bK7Kv2g"><img src="https://i.ibb.co/RD7D6Bp/distribucion.png" alt="distribucion" border="0"></a><br />
+
+Con este gráfico de columnas observamos la distribución de la generación a la que pertenecen los individuos. 
+<br>
+
+<h3>Histograma. Distribución de suicidios por cada 100k habitantes</h3>
+
+<a href="https://ibb.co/7zKDqBC"><img src="https://i.ibb.co/z5ZgzCx/histograma.png" alt="histograma" border="0"></a><br />
+
+El histograma nos muestra la distribución de los suicidios por cada 100.000 habitantes. 
+
+
+<h3>TreeMap Generación/Sexo/Número de suicidios</h3>
+<div class='tableauPlaceholder' id='viz1606995740884' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;TreeMapGeneracinSexoNmerosuicios&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='suicidios2_16069114614430&#47;TreeMapGeneracinSexoNmerosuicios' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;TreeMapGeneracinSexoNmerosuicios&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606995740884');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></a><br />
+
+
+<h3>TreeMap Generación/Año/Número de suicidios</h3>
+<div class='tableauPlaceholder' id='viz1606995853371' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;GeneracinAoNmerosuicidios&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='suicidios2_16069114614430&#47;GeneracinAoNmerosuicidios' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;GeneracinAoNmerosuicidios&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1606995853371');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></a><br />
+
+
+
+
+
+<h3>Mapa Interactivo de los suicidios a los largo de los años, desde 1985 a 2016</h3>
+<div class='tableauPlaceholder' id='viz1606911702479' style='position: relative'><noscript><a
+			href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;Hoja1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;suicidios2_16069114614430&#47;Hoja1?:language=es&amp;:embed=y&amp;:display_count=y&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;suicidios2_16069114614430&#47;Hoja1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /><param name='filter' value='publish=yes' /></object>
+</div>
+<script type='text/javascript'>
+	var divElement = document.getElementById('viz1606911702479');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script></a><br />
+
+En este gráfico interactivo podemos ver la suma de suicidios de cada País a lo largo del tiempo, en años. <br>
